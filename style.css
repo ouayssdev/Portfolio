@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+	width: 9px;
+}
+
+
+::-webkit-scrollbar-track{
+	background-color: #272622;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #b2991b;
+	border-radius: 10px;
+}
+
+
+body{
+	background-color: black;
+    font-family: 'poppins';
+    overflow-x: hidden;
+}
+
+.firstpage{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+
+}
+
+.divtitilefirstpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}    
+
+.firstpagetitle{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 9.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 90%;
+    letter-spacing: 5px;
+}
+
+.divdivsoustitrefirstpage{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divsoustitrefirstpage{
+    height: 65%;
+    width: 63%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.soustitrefirstpage{
+    text-align: end;
+    font-weight: 450;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+.Designerspan{
+    right: 15px;
+    position: relative;
+}
+
+.introduction{
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    
+}
+
+.introductiontitlediv{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.introductiontitle{
+    font-weight: 700;
+    color: black;
+    font-size: 8em;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.introductionbiodiv{
+    justify-content: center;
+    display: flex;
+    height: 30%;
+    text-align: center;
+    align-items: center;
+}
+
+.introductionbio{
+    width: 30%;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+}
+
+.introductiondiscoverbutton{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.discoverbutton{
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
+.presentation{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: beige;
+}
+
+.divpresentationpicture{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.presentationpicture{
+    height: 75%;
+    width: 100%;
+}
+
+.presentationtextdiv{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.presentationtitle{
+    font-size: 7em;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+.presentationsoustitre{
+    font-size: 1.7em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.presentationbio{
+    width: 70%;
+}
+
+.carriere{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+}
+
+.divcarrierepicture{
+    height: 100%;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.carrierepicture{
+    height: 70%;
+    width: 80%;
+}
+
+.carrieretextdiv{
+    width: 50%;
+    padding-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+.titlecarriere{
+    font-size: 6em;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 70px;
+    margin-top: 120px;
+}
+
+.carrierebio{
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.carrierebiotitle{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.personnalskills{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    justify-content: center;
+}
+
+.personnalskilldivpicture{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.personnalesskillspicture{
+    height: 50%;
+    width: 73%;
+}
+
+.personnalsskillstitle{
+    font-size: 8em;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 90%;
+}
+
+.personnalsskillsdivlist{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;    
+    justify-content: center;
+}
+
+.perosnnalsskillsul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    width: 60%;
+}
+
+
+.personnalskillslisttitlespan{
+    font-size: 1.5em;
+    font-weight: 500;
+    
+}
+.personnalskillsli{
+    padding-left: 50px;
+
+}
+
+
+.workexperience{
+    height: 100vh;
+    width: 100vw;
+    color: aliceblue;
+}
+
+.divworkexperiencetitle{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.workexperiencetitle{
+    font-size: 6em;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 90%;
+}
+
+.textworkexperiencediv{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+.textworkexperience{
+    width: 22%;
+    text-align: left;
+}
+
+.pictureworkexperiencediv{
+    width: 100%;
+    height: 30%;
+}
+
+.workexperiencepicture{
+    width: 100%;
+    height: 100%;
+}
+
+.contact{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: beige;
+}
+
+.titleandservicescontactdiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.contacttitlediv{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.contactservicesdiv{
+    height: 55%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+.messervicestitle{
+    font-weight: 600;
+    font-size: 5em;
+    margin-bottom: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.messerviceslititle{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.messervicesli{
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.precisionmesservices{
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.contacttitle{
+    font-size: 7em;
+    font-weight: 700;
+    line-height: 90%;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 50px;
+}
+
+
+.contactlinkdiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    right: 0;
+    position: absolute;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-bottom: 100px;
+    line-height: 30px;
+}
+
+.contactlink{
+    color: black;
+    text-decoration: underline;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+
+
+
+.avisclient{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+.avisclienttitlediv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+
+}
+
+.avisclienttitle{
+    font-size: 8em;
+    font-weight: 900;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 90%;
+    text-align: center;
+}
+
+
+
+
+.reviewdiv{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .main-review,
+  .upper-review,
+  .lower-review {
+    
+    height: 25%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .main-review {
+    color: black;
+    width: 75%;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+  
+  .upper-review,
+  .lower-review {
+    color: rgba(0, 0, 0, 0.647);
+    width: 60%;
+    font-size: 1em;
+    font-weight: 400;
+}
+  
+  @keyframes review-animation {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+
+.projet1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.titleandbioprojet1{
+    width: 35%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleprojet1{
+    font-size: 6em;
+    font-weight: 700;
+    line-height: 90%;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 110px;
+}
+
+.bioprojet1{
+    width: 90%;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.titlebioprojet{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.picturesprojet1div{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    width: 35%;
+    padding-left: 50px;
+}
+
+.pictureprojet1{
+    margin-bottom: 50px;
+    width: 90%;
+    height: 33%;
+}
+
+.projet2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.projet2div{
+    height: 80%;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+}
+
+.picturesprojet2div{
+    height: 100%;
+    width: 45%;
+}
+
+.pictureprojet2{
+    height: 100%;
+    width: 100%;
+}
+
+.titleandbioprojet2{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 60px;
+    padding-left: 70px;
+}
+
+.titleprojet2{
+    font-size: 6em;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 90%;
+    margin-bottom: 20%;
+}
+
+.bioprojet2{
+    width: 80%;
+    font-size: 1.2em;
+}
+
+.titlebioprojet2{
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+    
+}
+
+
+.messervises{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1035px) {
+    .avisclient{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .avisclienttitlediv{
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .avisclienttitle{
+        font-size: 10em;
+    }
+
+    .upper-review,
+    .lower-review{
+        overflow: hidden;
+        display: none;
+    }
+
+    .reviewdiv{
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .review-container{
+        background-color: black;
+        width: 65%;
+        border-radius: 15px;
+        margin-bottom: 40px;
+    }
+
+    .main-review{
+        width: 75%;
+        font-size: 1.4em;
+        font-weight: 300;
+        color: aliceblue;
+    }
+}
+
+@media screen and (max-width: 1035px) {
+    .titleandbioprojet2{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+}
