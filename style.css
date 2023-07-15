@@ -347,6 +347,11 @@ body{
     height: 100%;
 }
 
+
+
+
+
+
 .contact{
     height: 100vh;
     width: 100vw;
@@ -396,6 +401,9 @@ body{
     width: 100%;
     font-size: 1.2em;
     font-weight: 400;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
 }
 
 .precisionmesservices{
@@ -844,8 +852,7 @@ body{
 
 @media screen and (max-width: 1035px) {
     .workexperience{
-        height: 130vh;
-        background-color: red;
+        height: 120vh;
     }
 
     .divworkexperiencetitle{
@@ -864,8 +871,8 @@ body{
     }
 
     .pictureworkexperiencediv{
-        height: 25%;
-        background-color: #b2991b;
+        height: 30%;
+
     }
 
     .workexperiencepicture{
@@ -877,12 +884,12 @@ body{
 @media screen and (max-width: 1035px) {
     .avisclient{
         height: 130vh;
-        background-color: #b2991b;
     }
     
     .avisclienttitlediv{
         height: 70%;
         justify-content: flex-end;
+        background-color: aliceblue;
     }
 
     .avisclienttitle{
@@ -892,18 +899,143 @@ body{
 
     .reviewdiv{
         width: 100%;
-
+        align-items: center;
     }
 
     .review-container{
         width: 90%;
-        height: 50%;
-        margin-bottom: 0px;
+        height: max-content;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     .main-review,
     .upper-review,
     .lower-review {
-        font-size: 1em;
+        font-size: 0.9em;
     }
+
+
+}
+
+
+
+
+@media screen and (max-width: 1035px) {
+    .projet1{
+        height: 170vh;
+        flex-direction: column;
+        justify-content: none;
+    }
+
+    .titleandbioprojet1{
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    .picturesprojet1div{
+        width: 100%;
+        padding-left: 0;
+        justify-content: flex-end;
+        height: 45%;
+    }
+
+    .pictureprojet1{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 0;
+        margin-top: 35px;
+    }
+
+}
+
+
+@media screen and (max-width: 1035px) {
+    .projet2{
+        height: 140vh;
+
+    }
+
+    .projet2div{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .picturesprojet2div{
+        width: 100%;
+    }
+
+    .titleandbioprojet2{
+        width: 100%;
+        margin-left: 0px;
+        justify-content: flex-start;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1035px) {
+    .contact{
+        height: 150vh;
+    }
+
+    .titleandservicescontactdiv{
+        flex-direction: column;
+    }
+
+    .contactservicesdiv{
+        width: 100vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contacttitlediv{
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .contactlinkdiv{
+        width: 100%;
+       margin-top: 50px;
+    }
+
+    .contactlink{
+        margin-left: 25px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 325px) {
+    .firstpagetitle{
+        font-size: 5em;
+    }
+
+    .soustitrefirstpage{
+        font-size: 1em ;
+    }
+
+    .presentationtitle{
+        font-size: 5em;
+    }
+
+    .introductiontitle{
+        font-size: 4.3em;
+    }
+
+    .personnalsskillstitle{
+        font-size: 5em;
+    }
+
+    .workexperiencetitle{
+        font-size: 5em;
+    }
+
+
+
 }
